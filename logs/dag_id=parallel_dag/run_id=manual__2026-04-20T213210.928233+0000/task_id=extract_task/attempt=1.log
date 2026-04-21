@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-20T21:32:14.983946Z","level":"info","event":"Stats instance was created in PID 8 but accessed in PID 52586. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-20T21:32:16.091610Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-20T21:32:16.106347Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/6_parallel_tasks.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-20T21:32:16.578902Z","level":"info","event":"Extracting data...","logger":"task.stdout"}
+{"timestamp":"2026-04-20T21:32:16.837256Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
